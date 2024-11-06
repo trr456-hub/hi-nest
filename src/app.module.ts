@@ -5,7 +5,7 @@ import { TouchApiModule } from './touch-api/touch-api.module';
 import { AppController } from './app.controller';
 
 @Module({
-  imports: [],
+  imports: [TouchApiModule],
   controllers: [AppController],
   providers: [],
 })
